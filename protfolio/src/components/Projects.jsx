@@ -2,17 +2,44 @@ import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import bus from "../assets/bus.png";
 import clg from "../assets/clg.png";
 import catering from "../assets/catering.png";
+import ecommerceImg from "../assets/furniture.png"
+import dietPlannerImg from "../assets/diet.png"
 import { useState } from "react";
 import { SiGitkraken } from "react-icons/si";
 
 function Projects() {
   const projects = [
     {
+      title: "AI Smart Budget Diet Planner",
+      stack: "React, Node.js (Express), Google Gemini API, Bootstrap",
+      desc: (
+        <>
+          <ul>
+            <li>Developed an AI-powered meal planner that generates 7-day plans based on complex user constraints.</li>
+            <li>Integrated the <span className="fw-bold">Google Gemini API</span> for complex reasoning and structured JSON output.</li>
+            <li>Built a secure <span className="fw-bold">Node.js (Express) proxy</span> to protect API keys and manage requests.</li>
+            <li>Handled strict constraints for Budget (INR), Regional Indian Cuisine, and Allergies.</li>
+            <li>Designed a dynamic <span className="fw-bold">Glassmorphism UI</span> with a Particles.js background.</li>
+          </ul>
+        </>
+      ),
+      demoLink: "https://ai-diet-planner-nmjj.onrender.com/",
+      codeLink: "https://github.com/Gowthamkvdl/Smart-Budget-Diet-Planner",
+      img: dietPlannerImg
+    },
+
+    {
       title: "MERN Stack Service Listing with OTP Authentication",
       stack: "MERN Stack, Bootstrap",
       desc: (
         <>
-          Developed a secure, city-based bus listing platform, implementing <span className="fw-bold">OTP-based authentication</span> and an admin approval system. It was designed with an <span className="fw-bold">SEO-friendly UI</span> and includes features for real-time contact via <span className="fw-bold">WhatsApp CTA</span> and planned monetization through listing fees.
+          <ul>
+            <li>Built a secure, city-based service listing platform using the <span className="fw-bold">MERN Stack</span>.</li>
+            <li>Implemented <span className="fw-bold">OTP-based authentication</span> and an admin-approval system for listings.</li>
+            <li>Designed a responsive and <span className="fw-bold">SEO-friendly UI</span> with Bootstrap.</li>
+            <li>Integrated a real-time <span className="fw-bold">WhatsApp CTA</span> for immediate user contact.</li>
+            <li>Planned monetization features for paid listing placements.</li>
+          </ul>
         </>
       ),
       demoLink: "https://touristbus.onrender.com/",
@@ -20,34 +47,63 @@ function Projects() {
       img: bus
     },
     {
-      title: "Lead-Developed University Content & Grievance System (PHP/MySQL)",
-      stack: "PHP, MySQL, HTML, CSS, JavaScript, Bootstrap",
-      desc: (
-        <>
-          Served as the <span className="fw-bold">Lead Developer</span> to build the official college website (PHP/MySQL), integrating database-driven content updates, grievance redressal, and an admin panel. The platform manages events and announcements for the entire campus community.
-        </>
-      ),
-      demoLink: "https://www.aucetk.edu.in/",
-      codeLink: "https://www.aucetk.edu.in/pages/web.html",
-      img: clg
-    },
-    {
       title: "MERN Marketplace for Catering Professionals",
       stack: "MERN Stack, Bootstrap",
       desc: (
         <>
-          Designed and developed a <span className="fw-bold">MERN stack platform</span> to connect catering professionals with event organizers. Key features include secure user authentication, a <span className="fw-bold">star-rating system</span>, and a real-time <span className="fw-bold">WhatsApp CTA for faster hiring</span> and connections.
+          <ul>
+            <li>Designed a <span className="fw-bold">MERN stack marketplace</span> to connect catering professionals with event organizers.</li>
+            <li>Featured secure user authentication and profile management for vendors.</li>
+            <li>Implemented a <span className="fw-bold">star-rating and review system</span> for vendor credibility.</li>
+            <li>Included a real-time <span className="fw-bold">WhatsApp CTA</span> for faster hiring and direct connections.</li>
+            <li>Developed a responsive UI for browsing and filtering catering services.</li>
+          </ul>
         </>
       ),
       demoLink: "https://cateringboys0.onrender.com/",
       codeLink: "https://github.com/Gowthamkvdl/catring_project_rebirth",
       img: catering
+    },
+    {
+      title: "Full-Stack MERN E-Commerce Platform",
+      stack: "MERN Stack, Prisma ORM, Bootstrap, JWT",
+      desc: (
+        <>
+          <ul>
+            <li>Built a full-stack <span className="fw-bold">MERN E-Commerce platform</span> with a <span className="fw-bold">Prisma ORM</span>.</li>
+            <li>Implemented complex <span className="fw-bold">Role-Based Authentication</span> (Customer, Seller, & Admin).</li>
+            <li>Features separate dashboards for product, order, and user management based on role.</li>
+            <li>Includes a <span className="fw-bold">Reviews & Ratings</span> system (only after delivery) and a live order status tracker.</li>
+            <li>Secured with JWT + Protected Routes and deployed on Render (Client + API).</li>
+          </ul>
+        </>
+      ),
+      demoLink: "https://furniture-qqlv.onrender.com/",
+      codeLink: "https://github.com/Gowthamkvdl/furniture",
+      img: ecommerceImg
+    },
+    {
+      title: "Lead-Developed University Content & Grievance System (PHP/MySQL)",
+      stack: "PHP, MySQL, HTML, CSS, JavaScript, Bootstrap",
+      desc: (
+        <>
+          <ul>
+            <li>Served as the <span className="fw-bold">Lead Developer</span> for the official university website (aucetk.edu.in).</li>
+            <li>Engineered the platform using <span className="fw-bold">PHP and MySQL</span> for all backend logic and content.</li>
+            <li>Integrated database-driven content updates for events and announcements.</li>
+            <li>Built a comprehensive <span className="fw-bold">admin panel</span> for site management.</li>
+            <li>Implemented a student grievance redressal portal to handle campus feedback.</li>
+          </ul>
+        </>
+      ),
+      demoLink: "https://www.aucetk.edu.in/",
+      codeLink: "https://www.aucetk.edu.in/pages/web.html",
+      img: clg
     }
-  ]
+  ];
 
 
-
-  const [hoverIndex, setHoverIndex] = useState(null);  
+  const [hoverIndex, setHoverIndex] = useState(null);
 
   return (
     <section className="py-5">
