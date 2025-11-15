@@ -99,6 +99,24 @@ function Projects() {
       demoLink: "https://www.aucetk.edu.in/",
       codeLink: "https://www.aucetk.edu.in/pages/web.html",
       img: clg
+    },
+    {
+      title: "AI Weather App with Spline Robot",
+      stack: "React (TypeScript), OpenWeather API, Bootstrap, Spline 3D",
+      desc: (
+        <>
+          <ul>
+            <li>Built a fun, real-time <span className="fw-bold">AI-powered Weather App</span> with live background changes and a 3D robot animation.</li>
+            <li>Integrated <span className="fw-bold">OpenWeather API</span> for live weather updates with condition-based UI transitions (sunny, cloudy, rainy).</li>
+            <li>Designed a <span className="fw-bold">Spline 3D Robot</span> that reacts visually to weather changes for a playful, engaging experience.</li>
+            <li>Implemented <span className="fw-bold">Bootstrap Modals</span> for city selection and a glassmorphic theme throughout the interface.</li>
+            <li>Developed in <span className="fw-bold">React + TypeScript</span> for strong typing, reusability, and responsive design.</li>
+          </ul>
+        </>
+      ),
+      demoLink: "https://your-weather-app-link-here.onrender.com/",
+      codeLink: "https://github.com/Gowthamkvdl/weather-ai-app",
+      img: weatherAppImg // import your weather app image at the top
     }
   ];
 
