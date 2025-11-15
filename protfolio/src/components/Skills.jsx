@@ -138,7 +138,7 @@ const SkillPill = ({ skill }) => {
 const coreSkills = [
   {
     category: "Frameworks & Libraries",
-    skills: ["React.js", "Node.js", "Express.js", "Next.js", "Bootstrap", "RESTful APIs"]
+    skills: ["React.js", "Node.js", "Express.js", "Next.js", "Bootstrap", "RESTful APIs", "Partical js"]
   },
   {
     category: "Languages & Concepts",
