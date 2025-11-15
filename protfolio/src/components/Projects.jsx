@@ -3,7 +3,9 @@ import bus from "../assets/bus.png";
 import clg from "../assets/clg.png";
 import catering from "../assets/catering.png";
 import ecommerceImg from "../assets/furniture.png"
+import weatherImg from "../assets/weather.png"
 import dietPlannerImg from "../assets/diet.png"
+
 import { useState } from "react";
 import { SiGitkraken } from "react-icons/si";
 
@@ -116,7 +118,7 @@ function Projects() {
       ),
       demoLink: "https://your-weather-app-link-here.onrender.com/",
       codeLink: "https://github.com/Gowthamkvdl/weather-ai-app",
-      img: weatherAppImg // import your weather app image at the top
+      img: weatherImg // import your weather app image at the top
     }
   ];
 
