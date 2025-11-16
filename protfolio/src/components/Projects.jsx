@@ -31,7 +31,7 @@ function Projects() {
     },
 
     {
-      title: "MERN Stack Service Listing with OTP Authentication",
+      title: "MERN Stack Buses Listing with OTP Authentication",
       stack: "MERN Stack, Bootstrap",
       desc: (
         <>
@@ -85,7 +85,7 @@ function Projects() {
       img: ecommerceImg
     },
     {
-      title: "Lead-Developed University Content & Grievance System (PHP/MySQL)",
+      title: "Lead-Developed University Website & Grievance System (PHP/MySQL)",
       stack: "PHP, MySQL, HTML, CSS, JavaScript, Bootstrap",
       desc: (
         <>
