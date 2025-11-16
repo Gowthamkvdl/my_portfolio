@@ -1,7 +1,6 @@
 import { Container, Button } from "react-bootstrap";
 import "../App.css"
 // import resume from "../assets/gowtham.pdf"
-import resume from "https://drive.google.com/file/d/1jYYd9-u2JDSeel9PhRmxQzNdlPgQHiw1/view?usp=drive_link"
 
 
 function Hero() {
@@ -23,7 +22,7 @@ function Hero() {
 
           <Button
             variant="primary btn-fancy btn-shadow-glow"
-            href={resume}
+            href={"https://drive.google.com/file/d/1jYYd9-u2JDSeel9PhRmxQzNdlPgQHiw1/view?usp=drive_link"}
             className="mt-2 px-5 py-3 fs-5 shadow-lg"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-file-earmark-arrow-down pb-1 me-1" viewBox="0 0 16 16">
