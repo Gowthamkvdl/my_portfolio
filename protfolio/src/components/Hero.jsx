@@ -1,6 +1,8 @@
 import { Container, Button } from "react-bootstrap";
 import "../App.css"
-import resume from "../assets/gowtham.pdf"
+// import resume from "../assets/gowtham.pdf"
+import resume from "https://drive.google.com/file/d/1jYYd9-u2JDSeel9PhRmxQzNdlPgQHiw1/view?usp=drive_link"
+
 
 function Hero() {
   return (
