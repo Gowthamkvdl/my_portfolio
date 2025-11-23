@@ -9,16 +9,16 @@ function Hero() {
 
       <Container>
 
-        <h1 className="display-5">Hi, I'm Gowtham</h1>
+        <h1 className="display-5 animate__animated animate__bounceInLeft ">Hi, I'm Gowtham</h1>
 
-        <h2 className="display-4 fw-bolder text-dark mb-3">
+        <h2 className="display-4 fw-bolder text-dark mb-3 animate__bounceInRight animate__animated ">
           Full-stack Developer
         </h2>
 
         <p className="lead fs-5 text-secondary mx-auto" style={{ maxWidth: '700px' }}>
           Focused on creating real-world impact through technology
         </p>
-        <div className="btns d-flex flex-column justify-content-center align-items-center">
+        <div className="btns animate__animated animate__delay-1s animate__flash d-flex flex-column justify-content-center align-items-center">
 
           <Button
             variant="primary btn-fancy btn-shadow-glow"
