@@ -22,7 +22,7 @@ function Hero() {
 
           <Button
             variant="primary btn-fancy btn-shadow-glow"
-            href={"https://drive.google.com/file/d/1jYYd9-u2JDSeel9PhRmxQzNdlPgQHiw1/view?usp=drive_link"}
+            href={"https://drive.google.com/file/d/1_zqXHZpRzBOiE9qHd59zh1CRCvD288OA/view?usp=sharing"}
             className="mt-2 px-5 py-3 fs-5 shadow-lg"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-file-earmark-arrow-down pb-1 me-1" viewBox="0 0 16 16">
@@ -32,7 +32,7 @@ function Hero() {
             Download Resume
           </Button>
           <div className="socialCard">
-            <a href="mailto:gowthamkvdl@gmail.com" target="_blank" className="socialContainer containerOne rounded">
+            <a href="mailto:gowthamofficial7010@gmail.com" target="_blank" className="socialContainer containerOne rounded">
               <svg className="socialSvg gmailSvg" viewBox="0 0 24 24">
                 <path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"></path>
               </svg>

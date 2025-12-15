@@ -52,7 +52,7 @@ function Contact() {
             <Button
               variant="outline-primary"
               size="lg"
-              href="mailto:gowthamkvdl@gmail.com" // From resume [cite: 2]
+              href="mailto:gowthamofficial7010@gmail.com" // From resume [cite: 2]
               className="w-100"
             >
               <FaEnvelope className="me-1 pb-1 fs-4" /> Email Me
