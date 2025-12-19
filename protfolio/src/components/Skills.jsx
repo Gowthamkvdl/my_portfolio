@@ -150,7 +150,7 @@ const coreSkills = [
   },
   {
     category: "Tools & Platforms",
-    skills: ["Git / GitHub", "VS Code", "Postman", "Docker", "Netlify / Vercel / Render"]
+    skills: ["AWS", "Git / GitHub", "VS Code", "Postman", "Docker", "Netlify / Vercel / Render"]
   },
 ];
 
