@@ -26,7 +26,7 @@ function Projects() {
           </ul>
         </>
       ),
-      demoLink: "https://ai-diet-planner-nmjj.onrender.com/",
+      demoLink: "https://ai-budget-diet-planner.onrender.com/",
       codeLink: "https://github.com/Gowthamkvdl/Smart-Budget-Diet-Planner",
       img: dietPlannerImg
     },
